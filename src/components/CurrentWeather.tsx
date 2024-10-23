@@ -86,7 +86,7 @@ const CurrentWeather = ({ data }: CurrentWeatherProps) => {
 				</div>
 				<div className="text-8xl">
 					<img
-						src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
+						src={`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
 						alt={data.weather[0].main}
 					/>
 					<div className="text-white mt-2 text-4xl font-bold">

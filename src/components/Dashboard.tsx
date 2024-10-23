@@ -27,7 +27,7 @@ const Dashboard = () => {
 
 		if (value.length > 2) {
 			const response = await axios.get(
-				`http://api.openweathermap.org/geo/1.0/direct?q=${value}&limit=5&appid=${
+				`https://api.openweathermap.org/geo/1.0/direct?q=${value}&limit=5&appid=${
 					import.meta.env.VITE_API_KEY
 				}`
 			);
