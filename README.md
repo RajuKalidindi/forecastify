@@ -34,24 +34,21 @@ Follow these steps to set up and run the application locally:
     npm install
     ```
 
-4.  **Create Environment Files:**
+4.  **Create and Set Environment Variable:**
 
     Create the following .env file in the root of the project:
 
     -   .env
 
-5.  **Set Environment Variables Inside each .env file:**
-    Set the VITE_API_URL variable:
+    Set the VITE_API_KEY variable inside the .env:
 
-    -   For .env:
+    ```bash
+    VITE_API_KEY={your_openweather_api_key}
+    ```
 
-        ```bash
-        VITE_API_KEY={your_openweather_api_key}
-        ```
+    Replace {your_openweather_api_key} with your actual API Key.
 
-        Replace {your_openweather_api_key} with your actual API Key.
-
-6.  **Running the Application:**
+5.  **Running the Application:**
 
     To start the application, run the following command:
 
