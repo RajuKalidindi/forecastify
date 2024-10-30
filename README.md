@@ -52,8 +52,8 @@ Follow these steps to set up and run the application locally:
 
     To start the application, run the following command:
 
-        ```bash
-        npm run dev
-        ```
+    ```bash
+    npm run dev
+    ```
 
     Access the Application Open your web browser and navigate to http://localhost:5173 to view your application in action.
